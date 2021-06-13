@@ -1,0 +1,35 @@
+*{
+
+    font-family: 'Consolas';
+    text-align: center;
+    align-items: center;
+    background-color: rgb(20, 22, 20);
+}
+#background{
+    background: linear-gradient(to right, rgb(196, 37, 156), rgb(74, 42, 216));
+    border-radius: 10px;
+    margin-left: 550px;
+    margin-right: 550px;
+    height: 185px;
+}
+span, div{
+    background: transparent;
+}
+#heading{
+    font-size: 70px;
+    color: rgb(140,39,184);
+    border-radius: 12px;
+    font-weight: bold;
+    margin-top: 200px;
+}
+#date{
+    font-size: 30px;
+    font-weight: bold;
+}
+#hours, #minutes, #seconds{
+    font-size: 50px;
+}
+#time{
+    font-size: 50px;
+    margin-top: 14px;
+}
