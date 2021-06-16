@@ -5,3 +5,6 @@
 
 ## Link to `Clicks Counter`
 > https://aditya-ankur.github.io/Web-Development-Practice/Clicks%20Counter/index.html
+
+## Link to `Calculator`
+> https://aditya-ankur.github.io/Web-Development-Practice/Calculator/index.html
