@@ -1,0 +1,64 @@
+*{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Consolas';
+}
+body{
+    background-image: url(linear-gradient.jpg);
+}
+#all{
+    margin-top: 8%;
+    padding-left: 619px;
+    padding-right: 619px;
+}
+#display{
+    overflow: auto;
+    text-align: right;
+    padding: 10px;
+    height: 100px;
+    line-height: 100px;
+    text-align: right;
+    font-size: 35px;
+    color: white;
+    background: rgb(1, 1, 14) ;
+    margin: 0px auto;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: -1px 1px 12px 5px rgba(24, 23, 23, 0.6);
+}
+#buttons{
+    box-shadow: -1px 1px 12px 5px rgba(24, 23, 23, 0.6);
+}
+table{
+    background: transparent;
+}
+button{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+    margin: 0px auto;
+    border: 1px solid rgba(24, 23, 23, 0.2);
+    cursor: pointer;
+}
+#zero{
+    width: 140px;
+    border-bottom-left-radius: 12px;
+}
+#clear-all{
+    background-color: rgb(224, 86, 86);
+}
+#equals{
+    height: 140px;
+    border-bottom-right-radius: 12px;
+    background-color: rgb(175, 174, 174);
+}
+button:hover{
+    background-color: rgb(224, 86, 86);
+}
+#equals:hover{
+    background-color: rgb(87, 201, 87);
+}
