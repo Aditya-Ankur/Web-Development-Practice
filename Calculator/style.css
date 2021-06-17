@@ -8,18 +8,15 @@
 body{
     background-image: url(linear-gradient.jpg);
 }
-#all{
+table{
     margin-top: 8%;
-    padding-left: 619px;
-    padding-right: 619px;
+    margin-left: 619px;
+    margin-right: 619px;
 }
 #display{
     overflow: auto;
-    text-align: right;
-    padding-left: 40px;
+    line-height: 130px;
     padding-right: 10px;
-    padding-top: 40px;
-    padding-bottom: 40px;
     text-align: right;
     font-size: 35px;
     color: white;
@@ -27,13 +24,7 @@ body{
     margin: 0px auto;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    box-shadow: -1px 1px 12px 5px rgba(24, 23, 23, 0.6);
-}
-#buttons{
-    box-shadow: -1px 1px 12px 5px rgba(24, 23, 23, 0.6);
-}
-table{
-    background: transparent;
+    /* box-shadow: -1px 1px 12px 5px rgba(24, 23, 23, 0.6); */
 }
 button{
     color: black;
@@ -54,8 +45,8 @@ button{
 }
 #equals{
     height: 140px;
-    border-bottom-right-radius: 12px;
     background-color: rgb(175, 174, 174);
+    border-bottom-right-radius: 12px;
 }
 button:hover{
     background-color: rgb(224, 86, 86);
