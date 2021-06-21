@@ -8,19 +8,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="heading">Clock</div><br>
-    <div id="background">
-        <br><br>
-        <div id="date">
-            <span id="day">Sunday</span>,
-            <span id="month">June</span>
-            <span id="actual-date">13</span>
-        </div>
-        <div id="time">
-            <span id="hours">00</span> :
-            <span id="minutes">00</span> :
-            <span id="seconds">00</span>
-        </div>
+    <div id="display">Digital Clock</div>
+    <div class="center">
+        <table cellspacing="40" cellpadding="0">
+            <tr>
+                <td class="time" id="date" style="border-radius: 12px;">
+                    <span class="time" id="day">Tuesday</span><span style="font-size: 20px;">,</span>
+                    <span class="time" id="month">January</span>
+                    <span class="time" id="actual-date">09, 2007</span>
+                </td><td class="colon">:</td>
+                <td>
+                    <div id="hours">09</div><div class="header">Hours</div>
+                </td>
+                <td class="colon">:</td>
+                <td>
+                    <div id="minutes">41</div><div class="header">Minutes</div>
+                </td>
+                <td class="colon">:</td>
+                <td>
+                    <div id="seconds">00</div><div class="header">Seconds</div>
+                </td>
+            </tr>
+        </table>
     </div>
     <script src="script.js"></script>
 </body>
