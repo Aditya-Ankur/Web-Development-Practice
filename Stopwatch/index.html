@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">Stopwatch</div>
+    <div class="container">
+        <div class="display">
+            <table class="display-table" cellspacing="40" cellpadding="0">
+                <tr>
+                    <td class="count">
+                        <div id="hours">00</div>
+                    </td>
+                    <td class="colon">:</td>
+                    <td class="count">
+                        <div id="minutes">00</div>
+                    </td>
+                    <td class="colon">:</td>
+                    <td class="count">
+                        <div id="seconds">00</div>
+                    </td>
+                    <td class="colon">:</td>
+                    <td class="count">
+                        <div id="miliseconds">000</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="buttons">
+        <button id="startTimer" onclick="startTimer()">Start</button>
+        <button id="resetTimer" onclick="resetTimer()">Reset</button>
+        <button id="stopTimer" onclick="stopTimer()">Stop</button>
+        <button id="lapTimer" onclick="lapTime()">Lap</button>
+    </div>
+    <div class="container" id="laps-heading">Laps</div>
+    <div class="container">
+        <table class="laps" cellspacing="20" cellpadding="0">
+            <tr class="actual-laps">
+                <td id="laps">00 : 00 : 00 : 000</td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

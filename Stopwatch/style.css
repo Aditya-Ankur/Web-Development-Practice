@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Product Sans';
+    src: url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+body{
+    background: linear-gradient(to right, #5f2c82, #49a09d);
+}
+*{
+    font-family: 'Product Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.heading{
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.colon{
+    font-size: 40px;
+}
+table{
+    margin-left: 0.3vw;
+}
+.display{
+    background-color: white;
+    width: 50vw;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 70px;
+    font-weight: bold;
+}
+.buttons, .container{
+    display: flex;
+}
+button{
+    padding: 15px;
+    border: transparent;
+    margin-right: 50px;
+    width: 100px;
+    line-height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    background: white;
+}
+#laps-heading{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.laps{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    width: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+#lapTimer{
+    margin-right: 0px !important;
+}
+#startTimer:hover{
+    background: rgb(12, 184, 49);
+    color: white !important;
+}
+#resetTimer:hover, #lapTimer:hover{
+    background: rgb(64, 155, 190);
+    color: white !important;
+}
+#stopTimer:hover{
+    background: rgb(206, 46, 25);
+    color: white !important;
+}
