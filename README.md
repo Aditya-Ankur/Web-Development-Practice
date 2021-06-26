@@ -11,3 +11,6 @@
 
 ## Link to `Stopwatch`
 > https://aditya-ankur.github.io/Web-Development-Practice/Stopwatch/index.html
+
+## Link to `Random Background Generator`
+> https://aditya-ankur.github.io/Web-Development-Practice/Random%20Background/index.html
