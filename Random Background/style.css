@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Product Sans';
+    src: url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+*{
+    font-family: 'Product Sans';
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.heading{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+}
+.button{
+    display: flex;
+    margin-top: 70px;
+}
+.changeBackground{
+    font-size: 18px;
+    font-weight: bold;
+    background: rgb(22, 22, 22);
+    border: transparent;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.changeBackground:hover{
+    background-color: rgb(32, 173, 32);
+    color: black;
+}
+.bgname{
+    font-size: 300px;
+    color: rgba(41, 39, 39, 0.192);
+    margin: 0px auto;
+}
