@@ -8,3 +8,6 @@
 
 ## Link to `Calculator`
 > https://aditya-ankur.github.io/Web-Development-Practice/Calculator/index.html
+
+## Link to `Stopwatch`
+> https://aditya-ankur.github.io/Web-Development-Practice/Stopwatch/index.html
