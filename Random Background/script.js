@@ -74,7 +74,7 @@ function addBackgroundName(index){
 function changeBackground(){
     let index = Math.floor(Math.random()* arr.length);
     document.body.style.backgroundImage = arr[index];
-    console.log(arr[index]);
+    console.log(`background: ${arr[index]};`);
     addBackgroundName(index);
 };
 
