@@ -14,3 +14,6 @@
 
 ## Link to `Random Background Generator`
 > https://aditya-ankur.github.io/Web-Development-Practice/Random%20Background/index.html
+
+## Link to `Countdown Timer`
+> https://aditya-ankur.github.io/Web-Development-Practice/Countdown%20Timer/index.html
