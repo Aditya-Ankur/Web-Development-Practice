@@ -17,3 +17,6 @@
 
 ## Link to `Countdown Timer`
 > https://aditya-ankur.github.io/Web-Development-Practice/Countdown%20Timer/index.html
+
+## Link to `Dark Mode Switcher`
+> https://aditya-ankur.github.io/Web-Development-Practice/Dark%20Mode/index.html
