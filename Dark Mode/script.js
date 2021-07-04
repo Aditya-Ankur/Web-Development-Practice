@@ -11,13 +11,13 @@ function changeMode(){
         cssDay.disabled = true;
         cssNight.disabled = false;
         isDarkMode = true;
-        changeModeButton.innerHTML = 'Change to Light Mode';
+        changeModeButton.innerHTML = 'Switch to Light Mode';
     }
     else {
         cssDay.disabled = false;
         cssNight.disabled = true;
         isDarkMode = false;
-        changeModeButton.innerHTML = 'Change to Dark Mode';
+        changeModeButton.innerHTML = 'Switch to Dark Mode';
     };
 };
 
