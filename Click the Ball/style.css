@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+@keyframes Loading {
+    0% {
+        margin: 5vh 10px 10px 10px;
+        border-radius: 1px;
+    }
+    100% {
+        margin: 30vh 10px 10px 10px;
+        border-radius: 50%;
+    }
+}
+
+@keyframes moveUpandDown {
+    0% {
+        margin: 20vh 50px 50px 50px;
+        transform: scale(0.5);
+
+    }
+
+    50% {
+        margin: 35vh 10px 10px 10px;
+        transform: scale(1.2);
+    }
+
+    100% {
+        margin: 50vh 50px 50px 50px;
+        transform: scale(0.5);
+    }
+}
+
+body {
+    background: rgba(0, 0, 0, 0.911);
+}
+
+.heading {
+    color: white;
+    padding-top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.dot {
+    display: inline-block;
+    background: turquoise;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    transition: 0.6s all ease-in;
+    margin: 30vh 10px 10px 10px;
+    cursor: pointer;
+    transition: 5s;
+}
+
+.start {
+    color: black;
+    background: rgb(235, 229, 229);
+    border: transparent;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    position: absolute;
+    top: 75vh;
+    left: 44.5vw;
+    width: 10vw;
+}
+
+.start:hover {
+    background: turquoise;
+    transform: scale(1.17);
+}
+
+.timer {
+    font-weight: bold;
+    position: fixed;
+    right: -40vw;
+    top: 1vw;
+    padding: 0px 80px 0px 0px;
+    background: white;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    transition: 2s ease;
+}
+
+.time {
+    font-size: 30px;
+}
+
+.info {
+    position: fixed;
+    top: 5vh;
+    left: 0;
+    background-color: white;
+    padding: 10px 20px 15px 30px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.info-button {
+    border: transparent;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1.1s;
+}
+
+.info-button:hover {
+    color: turquoise;
+}
+
+.instructions {
+    position: fixed;
+    top: 2vh;
+    left: -40vw;
+    background: white;
+    padding: 10px 50px 20px 20px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: 1.3s ease;
+}
+
+.back {
+    background: transparent;
+    border: transparent;
+    position: absolute;
+    left: 370px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.back:hover {
+    color: turquoise;
+}

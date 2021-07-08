@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click the Ball</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">Click the Ball</div>
+    <div class="game">
+        <span class="dot" id="1"></span>
+        <span class="dot" id="2"></span>
+        <span class="dot" id="3"></span>
+        <span class="dot" id="4"></span>
+        <span class="dot" id="5"></span>
+        <span class="dot" id="6"></span>
+        <span class="dot" id="7"></span>
+    </div>
+    <div class="timer">
+        <table cellspacing="20" cellpadding="0">
+            <tr>
+                <td class="time">00</td>
+                <td class="time">00</td>
+            </tr>
+            <tr>
+                <td>Seconds</td>
+                <td>Miliseconds</td>
+            </tr>
+        </table>
+    </div>
+    <div class="info"><button class="info-button" title="Instructions"><i class="fas fa-info"></i></button></div>
+    <div class="instructions">
+        <h3>Instructions</h3>
+        <button class="back"><i class="fas fa-chevron-left"></i></button>
+        <p>You have to click the ball when its moving<br>
+        time will be noted. The faster you click<br>
+        the less time you take.<br>
+        When you click the ball, it dissapears.</p>
+    </div>
+    <div class="startGame">
+        <button class="start">Start Game</button>
+        <button class="start">Refresh Game</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://kit.fontawesome.com/bb8a750f55.js"></script>
+</body>
+</html>
