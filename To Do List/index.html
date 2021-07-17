@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <div class="history">
+        <form action="./task-history/history.html">
+            <button class="show-history">History</button>
+        </form>
+    </div>
+    <div class="heading">To-Do List</div>
+    <div id="form-division">
+        <form id="todo" autocomplete="off">
+            <div class="input">
+                <input type="text" name="textbox" id="textbox" placeholder="Enter Tasks">
+                <button id="addevent" title="Add Event"><i class="fas fa-plus"></i></button>
+            </div>
+        </form>
+        <div class="heading" id="sub-heading">Tasks</div>
+        <div class="tasks">
+            <div class="task-info"></div>
+        </div>
+    </div>    
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/bb8a750f55.js" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
