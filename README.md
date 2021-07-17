@@ -23,3 +23,6 @@
 
 ## Link to `Click the Ball`
 > https://aditya-ankur.github.io/Web-Development-Practice/Click%20the%20Ball/index.html
+
+## Link to `To-do List`
+> https://aditya-ankur.github.io/Web-Development-Practice/To%20Do%20List/index.html
