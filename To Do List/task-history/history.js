@@ -7,8 +7,7 @@ var aborted = sessionStorage.getItem('aborted');
 completed = JSON.parse(completed);
 aborted = JSON.parse(aborted);
 
-console.log(completed, aborted);
-
+clearHistory.style.visibility = 'hidden';
 
 // creating content for history
 completed.forEach(element => {

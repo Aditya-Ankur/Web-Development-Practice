@@ -77,7 +77,6 @@ function deleteEvent(e){
     for (let index = 0; index < elements.length; index++){
         let element = elements[index];
         if (element.id == String(id)){
-            console.log(element);
             let content = element.querySelector('.content').innerHTML;
             element.remove();
             todoDivCount--;
@@ -102,7 +101,6 @@ function doneEvent(e){
     for (let index = 0; index < elements.length; index++){
         let element = elements[index];
         if (element.id == String(id)){
-            console.log(element);
             let content = element.querySelector('.content').innerHTML;
             element.remove();
             todoDivCount--;
