@@ -20,3 +20,6 @@
 
 ## Link to `Dark Mode Switcher`
 > https://aditya-ankur.github.io/Web-Development-Practice/Dark%20Mode/index.html
+
+## Link to `Click the Ball`
+> https://aditya-ankur.github.io/Web-Development-Practice/Click%20the%20Ball/index.html
